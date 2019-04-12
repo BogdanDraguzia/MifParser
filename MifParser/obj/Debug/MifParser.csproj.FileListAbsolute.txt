@@ -1,0 +1,11 @@
+C:\Users\dbodi\source\repos\MifParser\MifParser\bin\Debug\MifParser.exe.config
+C:\Users\dbodi\source\repos\MifParser\MifParser\bin\Debug\MifParser.exe
+C:\Users\dbodi\source\repos\MifParser\MifParser\bin\Debug\MifParser.pdb
+C:\Users\dbodi\source\repos\MifParser\MifParser\bin\Debug\EntityFramework.dll
+C:\Users\dbodi\source\repos\MifParser\MifParser\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dbodi\source\repos\MifParser\MifParser\bin\Debug\EntityFramework.xml
+C:\Users\dbodi\source\repos\MifParser\MifParser\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dbodi\source\repos\MifParser\MifParser\obj\Debug\MifParser.csproj.CoreCompileInputs.cache
+C:\Users\dbodi\source\repos\MifParser\MifParser\obj\Debug\MifParser.exe
+C:\Users\dbodi\source\repos\MifParser\MifParser\obj\Debug\MifParser.pdb
+C:\Users\dbodi\source\repos\MifParser\MifParser\obj\Debug\MifParser.csprojResolveAssemblyReference.cache
