@@ -16,19 +16,19 @@ namespace MifParser
 
     public class GeoDbContext : DbContext
     {
-         public static string connectionString =
-            @"data source=DRAGONPC;initial catalog=GeoDbContext;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework; Pooling=false;"; 
+         //public static string connectionString =
+         //   @"data source=DRAGONPC;initial catalog=GeoDbContext;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework; Pooling=false;"; 
         static GeoDbContext()
         {
             Database.SetInitializer(new DropCreateDatabaseAlways<GeoDbContext>());
             SqlConnection.ClearAllPools();
         }
 
-        //public GeoDbContext()
-        //    : base("name=GeoDbContext")
-        //{ }
-        public GeoDbContext() : base(connectionString)
-        {}
+        public GeoDbContext()
+            : base("name=GeoDbContext")
+        { }
+        //public GeoDbContext() : base(connectionString)
+        //{}
 
         public DbSet<Owner> Owners { get; set; }
         public DbSet<Point> Points { get; set; }
